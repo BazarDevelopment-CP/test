@@ -1,3 +1,3 @@
 <?php
 
-echo 'Deploy';
+echo 'Autodeploy';
