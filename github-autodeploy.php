@@ -2,7 +2,7 @@
 /* 
 verify request
 */
-$secretKey = 'some secret';
+$secretKey = 'sova123';
 $requestData = file_get_contents('php://input');
 $signature = 'sha1=' . hash_hmac('sha1', $requestData, $secretKey);
 if ($signature != ($_SERVER['HTTP_X_HUB_SIGNATURE'] ?? '')) {
